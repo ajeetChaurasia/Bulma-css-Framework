@@ -1,0 +1,33 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "bulma css framework",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Bulma CSS Framework"
+  },
+  "keywords": [
+    "Bulma",
+    "CSS",
+    "Framework"
+  ],
+  "author": "Ajeet",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  }
+}
