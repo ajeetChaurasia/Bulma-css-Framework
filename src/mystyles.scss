@@ -36,3 +36,8 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/layout/section.sass";
 @import "bulma/sass/utilities/_all"
 @import "bulma/sass/elements/button.sass"
+
+
+.section {
+    padding: 0;
+}
